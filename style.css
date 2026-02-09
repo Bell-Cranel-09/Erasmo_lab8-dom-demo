@@ -1,0 +1,90 @@
+/* Simple CSS for DOM Exercise */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Layout - Center Everything */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Title */
+#Title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Description */
+#description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Button */
+#btnClick {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnClick:hover {
+    background-color: #45a049;
+}
+
+/* Output Section */
+#output {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#output h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#output p {
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #4CAF50;
+}
